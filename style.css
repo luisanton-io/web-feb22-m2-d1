@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+table {
+    /* height: 400vh */
+}
+
+/* 11) Give a maximum width to the body and center it into the page  */
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 3em;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* 12) Set every h1 to be centered */
+h1 {
+    text-align: center;
+}
+
+/* 13) Change the color of each link in the page */
+
+a {
+    color: #6bff15;
+}
+
+/* 14) Create a class with a border assigned to it */
+
+.bordered {
+    border: 1px solid red;
+}
+
+/* 15) Set the previously created table to have rounded corners */
+
+table {
+    border-radius: 80px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+/* 16) Add a margin between every paragraph */
+
+p {
+    margin: 1.5em;
+}
+
+/* 17) Create a class which changes font size and text weight when applied */
+
+.accent {
+    /* font-size as a rule of thumb is good with em, which  */
+    /* is the font-size of the parent container. */
+    /* This means that the font size is generally better expressed as in reference of the parent container font-size */
+    /* rather that creating a new size out of the blue */
+    /* By default: 16px */
+    font-size: 1.5em;
+    /* font-weight is generally a number in the hundreds */
+    font-weight: 100;
+}
+
+/* 18) Create a class to hide a piece of content */
+
+/* Hiding is different from not displaying */
+
+/* hiding means that the element leaves some blank space on its original position*/
+
+.hidden {
+    visibility: hidden;
+}
+/* A not-displayed element is not leaving any trace on the document */
+.d-none {
+    display: none;
+}
+
+/* 19) Add a green border to each <td> */
+
+td {
+    border: 1px solid greenyellow;
+}
+
+/* 20) Add a dotted red border to each <tr> 
+    (note: <tr> does not accept a border property)
+ */
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 4px solid blueviolet;
+}
